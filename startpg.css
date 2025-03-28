@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('https://thumbs.dreamstime.com/b/fitness-equipment-floor-gym-barbell-dumbbells-top-down-view-flat-lay-bodybuilding-black-background-empty-202958790.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.hdr-bg {
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+    padding: 5rem 0;
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn-login {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.cont {
+    max-width: 1140px;
+    margin: 150px;
+    padding: 10 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.txt-box {
+    text-align: left;
+    font-size:1.5rem ;
+   
+    width: 100%;
+    white-space: nowrap; /* Ensures text stays in a single line */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis (...) when text overflows */
+}
+
+
+.ttl {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-left: -30px;
+}
+
+.subttl {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+}
+
+.btn-grp {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    justify-content: start;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 0.3rem;
+}

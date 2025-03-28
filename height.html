@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Getting to Know You</title>
+    <link rel="stylesheet" href="height.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="website-name">Level- Up Your Fitness</h1>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="form-container">
+            
+            <!-- Height input -->
+            <h3 style="text-align: left;">How tall are you?</h3>
+            
+            <label for="height"></label>
+            <div class="input-group">
+                <input type="number" id="height-value" class="input-height" placeholder="Enter value" min="0" />
+                <select id="height-unit" class="select-unit">
+                    <option value="ft">Feet</option>
+                    <option value="in">Inches</option>
+                </select>
+            </div>
+
+            <!-- Weight input -->
+            <h3 style="text-align: left;">What is your current weight?</h3>
+            <p class="para">An approximate value is fine for now; you can refine it later.</p>
+            <label for="weight"></label>
+            <div class="input-group">
+                <input type="number" id="weight-value" class="input-weight" placeholder="Enter value" min="0" />
+                <select id="weight-unit" class="select-unit">
+                    <option value="kg">Kg</option>
+                    <option value="lbs">Lbs</option>
+                    <option value="pound">Pounds</option>
+                </select>
+            </div>
+
+            <!-- Goal weight input -->
+            <h3 style="text-align: left;">What is your goal weight?</h3>
+            <p class="para">Don't worry, this won't impact your daily calorie goal. You can adjust it later.</p>
+            <label for="goal-weight"></label>
+            <div class="input-group">
+                <input type="number" id="goal-weight-value" class="input-goal-weight" placeholder="Enter value" min="0" />
+                <select id="goal-weight-unit" class="select-unit">
+                    <option value="kg">Kg</option>
+                    <option value="lbs">Lbs</option>
+                    <option value="pound">Pounds</option>
+                </select>
+            </div>
+
+            <!-- Buttons -->
+            <div class="btn-group">
+                <a href="gender.html" class="btn btn-back">Back</a>
+                <a href="index.html" class="btn btn-next">Next</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

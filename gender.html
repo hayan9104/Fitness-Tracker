@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>What's your information?</title>
+    <link rel="stylesheet" href="gender.css"> <!-- Replace with your CSS file path -->
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="website-name">Level-Up Your Fitness</h1>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="form-container">
+            <form action="process_form.php" method="POST">
+                
+                <p style="margin-left: 0%;font-size: 18px;text-align: left;"><b>"Please indicate your gender to estimate your daily calorie requirements."</b></p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </fieldset><br><br>
+
+                <p style="font-size: 18px;text-align: left;"><b>"Enter the date you were born."</b></p>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+                <p style="font-size: 18px;text-align: left;"><b>Where do you live?</b></p>
+                <label for="location"></label>
+                <select id="location" name="location">
+                    <option value="">Select location...</option>
+                    <option value="city1">Gandhinagar</option>
+                    <option value="city2">Modasa</option>
+                    <option value="city3">Patan</option>
+                    <option value="city4">Bhavnagar</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <input type="text" id="zip-code" name="zip_code" placeholder="Zip Code" required />
+
+                <div class="btn-group">
+                    <a href="selectpg2.html" class="btn btn-back">Back</a>
+                    <a href="height.html" class="btn btn-next">Next</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

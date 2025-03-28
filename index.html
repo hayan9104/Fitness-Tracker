@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heli - Heli & Nutrition</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        " Fitness<span class="span">.</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link" data-nav-link>Help</a>
+          </li>
+
+        
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contactus.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="profile.html" class="btn btn-primary">Profile</a>
+
+      <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url()">
+        <div class="container">
+
+          <p class="hero-subtitle">Hustle for that Muscle</p>
+
+          <h1 class="h1 hero-title">"Transforming life through Level up your "Fitness.</h1>
+
+          <p class="hero-text">'All progress takes place outside the comfort zone'.</p>
+
+          <a href="ct.html" class="btn btn-secondary">Calories Tracker</a>
+
+          <div class="social-wrapper">
+
+            <p class="social-title">Connect with us:</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/help/" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://support.microsoft.com/en-us/skype/contact-skype-support-6d59f7ba-ba27-475d-87d0-5d36c2fcc59e" class="social-link">
+                  <ion-icon name="logo-skype"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://help.twitter.com/en" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/help/linkedin?lang=en" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-label="service" data-section>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="service-1.svg" width="60" height="60" loading="lazy" alt="Women’s Course">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Exercise</a>
+                </h3>
+
+                <p class="card-text">
+                  Ready for some wins ? Start workout , it's easy !!
+                </p>
+
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card active">
+
+                <div class="card-icon">
+                  <img src="service-2.svg" width="60" height="60" loading="lazy" alt="Basic Course">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Meal Planning</a>
+                </h3>
+
+                <p class="card-text">
+                   And make mindful eating a habit for life ...
+                </p>
+
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="service-3.svg" width="60" height="60" loading="lazy" alt="Men’s Course">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Calories Tracking</a>
+                </h3>
+
+                <p class="card-text">
+                  Discover the impact of your food and fitness..
+                </p>
+
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="about" data-section>
+        <div class="container">
+
+          <div class="about-banner img-holder" style="--width: 470; --height: 580;">
+            <img src="peronal-trainer-quotes-2.jpg" width="470" height="580" loading="lazy" alt="about banner"
+              class="img-cover">
+
+            <a href="#" class="btn btn-secondary">Meet Instructor</a>
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">25+ Years Of Experience</p>
+
+            <h2 class="h2 section-title">We have expert instructor for help our students.</h2>
+
+            <p class="section-text">
+              The best way to find out if you can trust somebody is to trust us.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-label="blog" id="blog" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <p class="section-subtitle">Our Blog Post</p>
+
+            <h2 class="h2 section-title">Latest Article of Nutrition</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="wrapper">
+
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span">2</span> Jan
+                  </time>
+
+                  <div>
+
+                    <div class="card-author">
+                      <a href="https://mattroberts.co.uk/" class="card-link">
+                        By: <span class="span">Matt Roberts</span>
+                      </a>
+                    </div>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text">800 Likes</p>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="item-text">500 Share</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">It was popularised sheets the release contain</a>
+                </h3>
+
+                <p class="card-text">
+                  London based trainer Matt trains a roster of celebrity clients, is a published author and has his own brand of fitness clothing. But despite this borderline celebrity trainer status, he remains grounded. He knows that working with regular people and helping them to achieve the results they’re looking for is what gets referrals, and word of mouth business. After 23 years of experience in the fitness industry, Matt knows something about being able to relate to others and considers interpersonal skills to be one of the most important assets an aspiring trainer can possess.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="wrapper">
+
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span">4</span> Feb
+                  </time>
+
+                  <div>
+
+                    <div class="card-author">
+                      <a href="" class="card-link">
+                        By: <span class="span"> Brad Schoenfeld</span>
+                      </a>
+                    </div>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text">455 Likes</p>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="item-text">333 Share</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">It was popularised sheets the release contain</a>
+                </h3>
+
+                <p class="card-text">
+                  Brad Schoenfeld considered one of greatest trainers of all time is a respected trainer, author and professor of exercise science who specialises in the science of bodybuilding and nutritionso he's often referred to as the gym trainer for men.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="wrapper">
+
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span">24</span> Feb
+                  </time>
+
+                  <div>
+
+                    <div class="card-author">
+                      <a href="www.coastalfitnesshk.com
+                      " class="card-link">
+                        By: <span class="span">Emma Chan</span>
+                      </a>
+                    </div>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text">8700 Likes</p>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="item-text">580 Share</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">It was popularised sheets the release contain</a>
+                </h3>
+
+                <p class="card-text">
+                  Emma Chan is based at Coastal Fitness in Hong Kong. She's a health and performance specialist with a background in competitive volleyball. Her coaching and specialism was inspired by a sporting injury and her journey to recovery. Her first stop in the industry was a group exercise instructor and then kept developing her skills as a strength and conditioning coach, yoga instructor. Emma works with both end of the athlete spectrum, people who are completely new to fitness and athletes who want to improve their performance.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #APP
+      -->
+
+      <section class="section app" aria-label="app" data-section>
+        <div class="container">
+
+          <!-- <div class="app-card">
+
+            <p class="section-subtitle">Mobile App Available</p>
+
+            <h2 class="h2 section-title">
+              Download our mobile app.<br>
+              and start coaching anytime.
+            </h2>
+
+            <div class="wrapper">
+              <a href="https://apps.apple.com/us/app/google-fit-activity-tracker/id1433864494" class="app-link" aria-label="app store">
+                <img src="https://img.icons8.com/?size=100&id=lyy7Emts92oj&format=png&color=000000" width="140" height="80" loading="lazy" alt="app Store"
+                  class="img">
+              </a>
+
+              <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&hl=en_US&hl=en_GB" class="app-link" aria-label="play store">
+                <img src="https://img.icons8.com/?size=100&id=99407&format=png&color=000000" width="140" height="80" loading="lazy" alt="play Store"
+                  class="img">
+              </a>
+            </div>
+
+          </div> -->
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+ 
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 "Level up your fitness.
+ Made With
+          <ion-icon name="heart" aria-hidden="true"></ion-icon> by
+          <a href="#" class="copyright-link">LDRP(Yogin , Rudram , Nisarg , Hayan)</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Terms of Service</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Security</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="index.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 # Fitness Tracker
 
-The **Fitness Tracker** is a web application designed to help users monitor and enhance their fitness journey by tracking various health metrics and activities.&#8203;:contentReference[oaicite:2]{index=2}
+The **Fitness Tracker** is a web application designed to help users monitor and enhance their fitness journey by tracking various health metrics and activities.&#8203;:contentReference[oaicite:2]{index=2}(Pg1.html is main page)
 
 ## Features
 

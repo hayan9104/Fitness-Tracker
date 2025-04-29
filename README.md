@@ -12,7 +12,7 @@ The **Fitness Tracker** is a web application designed to help users monitor and 
 
 ## Technologies Used
 
-HTML, CSS , JavaScript
+HTML, CSS , JavaScript , Flask, MySql
 
 ## Installation
 
